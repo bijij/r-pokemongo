@@ -1,0 +1,54 @@
+/* CSS VARIABLES*/
+
+:root {
+    /* Global colours */
+    --text-primary: #4a4a4a;
+    --text-secondary: #9b9b9b;
+    --footer-text: #f6f6f6;
+    --upvote: #ff4500;
+    --downvote: #9587ff;
+    --reddit-gold: #e2a744;
+
+    /* Theme colours */
+    --sub-background: #f0ffed;
+    --separators: #d8f2d3;
+    --header-link-inactive: #d8d8d8;
+    --primary-text-on-bg: #7f7f7f;
+    --secondary-text-on-bg: #b4b4b4;
+    --stickied-mod: #08b18b;
+    --header-highlight: #18ffc1;
+    --body-link: #28cca9;
+    --medium-importance: #b1cbad;
+    --button-text: #ffffff;
+
+    /* Gradients */
+    --button-gradient: linear-gradient(to right, #a2db95, #2bcdac);
+    --button-gradient-act: linear-gradient(to right, #85b77a, #23ae91);
+
+    --body-gradient-center: linear-gradient(to bottom, #fefffe, #f0ffed);
+    --body-gradient-left: linear-gradient(to bottom, #b5f19c, #7cd5a9);
+    --body-gradient-right: linear-gradient(to bottom, #7dd5a9, #44b9b7);
+
+
+    /* Box shadows */
+    --white-panel-shadow: rgba(15,95,32,0.2);
+    --white-panel-hov-shadow: rgba(24,110,65,0.2);
+    --button-hov-shadow: rgba(84,178,134,0.5);
+    --button-act-shadow: rgba(16,99,61,0.4);
+
+    /* Link Flairs */
+    --flair-art: #e7484f;
+    --flair-question: #f57432;
+    --flair-humor: #ef9b10;
+    --flair-complaint: #dcbf71;
+    --flair-idea: #e8d601;
+    --flair-bugs: #bdc36d;
+    --flair-photo: #7ed321;
+    --flair-story: #3ad692;
+    --flair-news: #4bbff4;
+    --flair-ar-shot: #a588ff;
+    --flair-video: #e575ec;
+    --flair-discussion: #ff86c2;
+    --flair-other: #b4b2b4;
+    --flair-meta: #000000;
+}

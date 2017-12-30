@@ -1,0 +1,3511 @@
+.thing .flair {
+    float: right;
+}
+
+.flair, .linkflairlabel {
+    border-color: transparent!important;
+}
+
+.flair {
+    background: transparent;
+    background-repeat: no-repeat!important;
+    line-height: 38px;
+    vertical-align: middle;
+    text-indent: 45px;
+    height: 38px;
+    min-width: 40px;
+    padding: 0 8px 0 0 
+}
+
+a[href^="##"]{
+    cursor:default;
+    display:inline-block;
+    background-repeat:no-repeat;
+    background-position:-9999px -9999px;
+    margin:0 0;
+    vertical-align:top;
+    content:" ";
+    min-width:40px;
+    height:38px 
+}
+
+/* SPECIAL AND TEAM FLAIRS */
+.flair-ikc {
+   background-image: url(%%specialflairs%%);
+   height: 30px;
+    min-width: 40px;
+    line-height: 60px;
+    background-position: 0 0px
+}
+
+.flair-fevgames {
+   background-image: url(%%specialflairs%%);
+   height: 16px;
+    width: 16px;
+    line-height: 16px;
+    background-position: 0 -30px
+}
+
+.flair-nolfinkol{
+   background-image: url(%%specialflairs%%);
+   height: 13px;
+    line-height: 16px;
+    background-position: 0 -113px
+}
+
+.flair-missingno {
+   background-image: url(%%specialflairs%%);
+    background-position: 0 -136px;
+    height: 40px;
+    min-width: 36px
+}
+
+a[href$="#f/v/"],.flair-valor{
+   background-image: url(%%specialflairs%%);
+    background-position: 0 -202px;
+    height: 38px;
+    min-width: 40px
+}
+
+a[href$="#f/m/"],.flair-mystic{
+   background-image: url(%%specialflairs%%);
+    background-position: 0 -278px;
+    height: 38px;
+    min-width: 40px
+}
+
+a[href$="#f/i/"],.flair-instinct{
+   background-image: url(%%specialflairs%%);
+    background-position: 0 -240px;
+    height: 38px;
+    min-width: 40px
+}
+
+.flair-rage{
+   background-image: url(%%specialflairs%%);
+   height: 32px;
+   min-width: 33px;
+   text-indent: 35px;
+   background-position:0 -170px
+}
+
+.flair-spark{
+   background-image: url(%%specialflairs%%);
+   height:40px;
+   min-width:40px;
+   line-height:40px;
+   background-position: 0 -316px
+}
+
+.flair-blanche{
+   background-image: url(%%specialflairs%%);
+   height:40px;
+   min-width:40px;
+   line-height:40px;
+   background-position: 0 -356px
+}
+
+.flair-candela{
+   background-image: url(%%specialflairs%%);
+   height:40px;
+   min-width:40px;
+   line-height:40px;
+   background-position: 0 -396px
+}
+
+.flair-willow{
+   background-image: url(%%specialflairs%%);
+   height:40px;
+   min-width:40px;
+   line-height:40px;
+   background-position: 0 -436px
+}
+
+/* Flairs */
+/* Flair images taken from /r/Pokemon and modified by /u/Juxlos */
+a[href$="/1/"],.flair[class*="1"]{
+   background:0 0
+}
+
+a[href$="/2/"].flair[class*="2"]{
+   background:0 -38px
+}
+
+a[href$="/3/"],.flair[class*="3"]{
+   background:0 -76px
+}
+
+a[href$="/4/"],.flair[class*="4"]{
+   background:0 -114px
+}
+
+a[href$="/5/"],.flair[class*="5"]{
+   background:0 -152px
+}
+
+a[href$="/6/"],.flair[class*="6"]{
+   background:0 -190px
+}
+
+a[href$="/7/"],.flair[class*="7"]{
+   background:0 -228px
+}
+
+a[href$="/8/"],.flair[class*="8"]{
+   background:0 -266px
+}
+
+a[href$="/9/"],.flair[class*="9"]{
+   background:0 -304px
+}
+
+.flair[class*="10"]{
+   background:0 -342px
+}
+
+.flair[class*="11"]{
+   background:0 -380px
+}
+
+.flair[class*="12"]{
+   background:0 -418px
+}
+
+.flair[class*="13"]{
+   background:0 -456px
+}
+
+.flair[class*="14"]{
+   background:0 -494px
+}
+
+.flair[class*="15"]{
+   background:0 -532px
+}
+
+a[href$="/16/"],.flair[class*="16"]{
+   background:0 -570px
+}
+
+.flair[class*="17"]{
+   background:0 -608px
+}
+
+.flair[class*="18"]{
+   background:0 -646px
+}
+
+a[href$="/19/"],.flair[class*="19"]{
+   background:0 -684px
+}
+
+.flair[class*="20"]{
+   background:0 -722px
+}
+
+.flair[class*="21"]{
+   background:0 -760px
+}
+
+.flair[class*="22"]{
+   background:0 -798px
+}
+
+.flair[class*="23"]{
+   background:0 -836px
+}
+
+.flair[class*="24"]{
+   background:0 -874px
+}
+
+.flair[class*="25"]{
+   background:0 -912px
+}
+
+.flair[class*="26"]{
+   background:0 -950px
+}
+
+.flair[class*="27"]{
+   background:0 -988px
+}
+
+.flair[class*="28"]{
+   background:0 -1026px
+}
+
+.flair[class*="29"]{
+   background:0 -1064px
+}
+
+.flair[class*="30"]{
+   background:0 -1102px
+}
+
+.flair[class*="31"]{
+   background:0 -1140px
+}
+
+.flair[class*="32"]{
+   background:0 -1178px
+}
+
+.flair[class*="33"]{
+   background:0 -1216px
+}
+
+.flair[class*="34"]{
+   background:0 -1254px
+}
+
+.flair[class*="35"]{
+   background:0 -1292px
+}
+
+.flair[class*="36"]{
+   background:0 -1330px
+}
+
+.flair[class*="37"]{
+   background:0 -1368px
+}
+
+.flair[class*="38"]{
+   background:0 -1406px
+}
+
+.flair[class*="39"]{
+   background:0 -1444px
+}
+
+.flair[class*="40"]{
+   background:0 -1482px
+}
+
+.flair[class*="41"]{
+   background:0 -1520px
+}
+
+.flair[class*="42"]{
+   background:0 -1558px
+}
+
+.flair[class*="43"]{
+   background:0 -1596px
+}
+
+.flair[class*="44"]{
+   background:0 -1634px
+}
+
+.flair[class*="45"]{
+   background:0 -1672px
+}
+
+.flair[class*="46"]{
+   background:0 -1710px
+}
+
+.flair[class*="47"]{
+   background:0 -1748px
+}
+
+.flair[class*="48"]{
+   background:0 -1786px
+}
+
+.flair[class*="49"]{
+   background:0 -1824px
+}
+
+.flair[class*="50"]{
+   background:0 -1862px
+}
+
+.flair[class*="51"]{
+   background:0 -1900px
+}
+
+.flair[class*="52"]{
+   background:0 -1938px
+}
+
+.flair[class*="53"]{
+   background:0 -1976px
+}
+
+.flair[class*="54"]{
+   background:0 -2014px
+}
+
+.flair[class*="55"]{
+   background:0 -2052px
+}
+
+.flair[class*="56"]{
+   background:0 -2090px
+}
+
+.flair[class*="57"]{
+   background:0 -2128px
+}
+
+.flair[class*="58"]{
+   background:0 -2166px
+}
+
+.flair[class*="59"]{
+   background:0 -2204px
+}
+
+.flair[class*="60"]{
+   background:0 -2242px
+}
+
+.flair[class*="61"]{
+   background:0 -2280px
+}
+
+.flair[class*="62"]{
+   background:0 -2318px
+}
+
+.flair[class*="63"]{
+   background:0 -2356px
+}
+
+.flair[class*="64"]{
+   background:0 -2394px
+}
+
+.flair[class*="65"]{
+   background:0 -2432px
+}
+
+.flair[class*="66"]{
+   background:0 -2470px
+}
+
+.flair[class*="67"]{
+   background:0 -2508px
+}
+
+.flair[class*="68"]{
+   background:0 -2546px
+}
+
+.flair[class*="69"]{
+   background:0 -2584px
+}
+
+.flair[class*="70"]{
+   background:0 -2622px
+}
+
+.flair[class*="71"]{
+   background:0 -2660px
+}
+
+.flair[class*="72"]{
+   background:0 -2698px
+}
+
+.flair[class*="73"]{
+   background:0 -2736px
+}
+
+.flair[class*="74"]{
+   background:0 -2774px
+}
+
+.flair[class*="75"]{
+   background:0 -2812px
+}
+
+.flair[class*="76"]{
+   background:0 -2850px
+}
+
+.flair[class*="77"]{
+   background:0 -2888px
+}
+
+.flair[class*="78"]{
+   background:0 -2926px
+}
+
+.flair[class*="79"]{
+   background:0 -2964px
+}
+
+.flair[class*="80"]{
+   background:0 -3002px
+}
+
+.flair[class*="81"]{
+   background:0 -3040px
+}
+
+.flair[class*="82"]{
+   background:0 -3078px
+}
+
+.flair[class*="83"]{
+   background:0 -3116px
+}
+
+.flair[class*="84"]{
+   background:0 -3154px
+}
+
+.flair[class*="85"]{
+   background:0 -3192px
+}
+
+.flair[class*="86"]{
+   background:0 -3230px
+}
+
+.flair[class*="87"]{
+   background:0 -3268px
+}
+
+.flair[class*="88"]{
+   background:0 -3306px
+}
+
+.flair[class*="89"]{
+   background:0 -3344px
+}
+
+.flair[class*="90"]{
+   background:0 -3382px
+}
+
+.flair[class*="91"]{
+   background:0 -3420px
+}
+
+.flair[class*="92"]{
+   background:0 -3458px
+}
+
+.flair[class*="93"]{
+   background:0 -3496px
+}
+
+.flair[class*="94"]{
+   background:0 -3534px
+}
+
+.flair[class*="95"]{
+   background:0 -3572px
+}
+
+.flair[class*="96"]{
+   background:0 -3610px
+}
+
+.flair[class*="97"]{
+   background:0 -3648px
+}
+
+.flair[class*="98"]{
+   background:0 -3686px
+}
+
+.flair[class*="99"]{
+   background:0 -3724px
+}
+
+.flair[class*="100"]{
+   background:0 -3762px
+}
+
+.flair[class*="101"]{
+   background:0 -3800px
+}
+
+.flair[class*="102"]{
+   background:0 -3838px
+}
+
+.flair[class*="103"]{
+   background:0 -3876px
+}
+
+.flair[class*="104"]{
+   background:0 -3914px
+}
+
+.flair[class*="105"]{
+   background:0 -3952px
+}
+
+.flair[class*="106"]{
+   background:0 -3990px
+}
+
+.flair[class*="107"]{
+   background:0 -4028px
+}
+
+.flair[class*="108"]{
+   background:0 -4066px
+}
+
+.flair[class*="109"]{
+   background:0 -4104px
+}
+
+.flair[class*="110"]{
+   background:0 -4142px
+}
+
+.flair[class*="111"]{
+   background:0 -4180px
+}
+
+.flair[class*="112"]{
+   background:0 -4218px
+}
+
+.flair[class*="113"]{
+   background:0 -4256px
+}
+
+.flair[class*="114"]{
+   background:0 -4294px
+}
+
+.flair[class*="115"]{
+   background:0 -4332px
+}
+
+.flair[class*="116"]{
+   background:0 -4370px
+}
+
+.flair[class*="117"]{
+   background:0 -4408px
+}
+
+.flair[class*="118"]{
+   background:0 -4446px
+}
+
+.flair[class*="119"]{
+   background:0 -4484px
+}
+
+.flair[class*="120"]{
+   background:0 -4522px
+}
+
+.flair[class*="121"]{
+   background:0 -4560px
+}
+
+.flair[class*="122"]{
+   background:0 -4598px
+}
+
+.flair[class*="123"]{
+   background:0 -4636px
+}
+
+.flair[class*="124"]{
+   background:0 -4674px
+}
+
+.flair[class*="125"]{
+   background:0 -4712px
+}
+
+.flair[class*="126"]{
+   background:0 -4750px
+}
+
+.flair[class*="127"]{
+   background:0 -4788px
+}
+
+.flair[class*="128"]{
+   background:0 -4826px
+}
+
+a[href$="/129/"],.flair[class*="129"]{
+   background:0 -4864px
+}
+
+a[href$="/130/"],.flair[class*="130"]{
+   background:0 -4902px
+}
+
+a[href$="/131/"],.flair[class*="131"]{
+   background:0 -4940px
+}
+
+.flair[class*="132"]{
+   background:0 -4978px
+}
+
+a[href$="/133/"],.flair[class*="133"]{
+   background:0 -5016px
+}
+
+a[href$="/134/"],.flair[class*="134"]{
+   background:0 -5054px
+}
+
+a[href$="/135/"],.flair[class*="135"]{
+   background:0 -5092px
+}
+
+a[href$="/136/"],.flair[class*="136"]{
+   background:0 -5130px
+}
+
+.flair[class*="137"]{
+   background:0 -5168px
+}
+
+.flair[class*="138"]{
+   background:0 -5206px
+}
+
+.flair[class*="139"]{
+   background:0 -5244px
+}
+
+.flair[class*="140"]{
+   background:0 -5282px
+}
+
+.flair[class*="141"]{
+   background:0 -5320px
+}
+
+.flair[class*="142"]{
+   background:0 -5358px
+}
+
+.flair[class*="143"]{
+   background:0 -5396px
+}
+
+a[href$="/144/"],.flair[class*="144"]{
+   background:0 -5434px
+}
+
+a[href$="/145/"],.flair[class*="145"]{
+   background:0 -5472px
+}
+
+a[href$="/146/"],.flair[class*="146"]{
+   background:0 -5510px
+}
+
+a[href$="/147/"],.flair[class*="147"]{
+   background:0 -5548px
+}
+
+a[href$="/148/"],.flair[class*="148"]{
+   background:0 -5586px
+}
+
+a[href$="/149/"],.flair[class*="149"]{
+   background:0 -5624px
+}
+
+a[href$="/150/"],.flair[class*="150"]{
+   background:0 -5662px
+}
+
+a[href$="/151/"],.flair[class*="151"]{
+   background:0 -5700px
+}
+
+.flair[class*="152"]{
+   background:0 -5738px
+}
+
+.flair[class*="153"]{
+   background:0 -5776px
+}
+
+.flair[class*="154"]{
+   background:0 -5814px
+}
+
+.flair[class*="155"]{
+   background:0 -5852px
+}
+
+.flair[class*="156"]{
+   background:0 -5890px
+}
+
+.flair[class*="157"]{
+   background:0 -5928px
+}
+
+.flair[class*="158"]{
+   background:0 -5966px
+}
+
+.flair[class*="159"]{
+   background:0 -6004px
+}
+
+.flair[class*="160"]{
+   background:0 -6042px
+}
+
+.flair[class*="161"]{
+   background:0 -6080px
+}
+
+.flair[class*="162"]{
+   background:0 -6118px
+}
+
+.flair[class*="163"]{
+   background:0 -6156px
+}
+
+.flair[class*="164"]{
+   background:0 -6194px
+}
+
+.flair[class*="165"]{
+   background:0 -6232px
+}
+
+.flair[class*="166"]{
+   background:0 -6270px
+}
+
+.flair[class*="167"]{
+   background:0 -6308px
+}
+
+.flair[class*="168"]{
+   background:0 -6346px
+}
+
+.flair[class*="169"]{
+   background:0 -6384px
+}
+
+.flair[class*="170"]{
+   background:0 -6422px
+}
+
+.flair[class*="171"]{
+   background:0 -6460px
+}
+
+.flair[class*="172"]{
+   background:0 -6498px
+}
+
+.flair[class*="173"]{
+   background:0 -6536px
+}
+
+.flair[class*="174"]{
+   background:0 -6574px
+}
+
+.flair[class*="175"]{
+   background:0 -6612px
+}
+
+.flair[class*="176"]{
+   background:0 -6650px
+}
+
+.flair[class*="177"]{
+   background:0 -6688px
+}
+
+.flair[class*="178"]{
+   background:0 -6726px
+}
+
+.flair[class*="179"]{
+   background:0 -6764px
+}
+
+.flair[class*="180"]{
+   background:0 -6802px
+}
+
+.flair[class*="181"]{
+   background:0 -6840px
+}
+
+.flair[class*="182"]{
+   background:0 -6878px
+}
+
+.flair[class*="183"]{
+   background:0 -6916px
+}
+
+.flair[class*="184"]{
+   background:0 -6954px
+}
+
+.flair[class*="185"]{
+   background:0 -6992px
+}
+
+.flair[class*="186"]{
+   background:0 -7030px
+}
+
+.flair[class*="187"]{
+   background:0 -7068px
+}
+
+.flair[class*="188"]{
+   background:0 -7106px
+}
+
+.flair[class*="189"]{
+   background:0 -7144px
+}
+
+.flair[class*="190"]{
+   background:0 -7182px
+}
+
+.flair[class*="191"]{
+   background:0 -7220px
+}
+
+.flair[class*="192"]{
+   background:0 -7258px
+}
+
+.flair[class*="193"]{
+   background:0 -7296px
+}
+
+.flair[class*="194"]{
+   background:0 -7334px
+}
+
+.flair[class*="195"]{
+   background:0 -7372px
+}
+
+.flair[class*="196"]{
+   background:0 -7410px
+}
+
+.flair[class*="197"]{
+   background:0 -7448px
+}
+
+.flair[class*="198"]{
+   background:0 -7486px
+}
+
+.flair[class*="199"]{
+   background:0 -7524px
+}
+
+.flair[class*="200"]{
+   background:0 -7562px
+}
+
+.flair[class*="201"]{
+   background:0 -7600px
+}
+
+.flair[class*="202"]{
+   background:0 -7638px
+}
+
+.flair[class*="203"]{
+   background:0 -7676px
+}
+
+.flair[class*="204"]{
+   background:0 -7714px
+}
+
+.flair[class*="205"]{
+   background:0 -7752px
+}
+
+.flair[class*="206"]{
+   background:0 -7790px
+}
+
+.flair[class*="207"]{
+   background:0 -7828px
+}
+
+.flair[class*="208"]{
+   background:0 -7866px
+}
+
+.flair[class*="209"]{
+   background:0 -7904px
+}
+
+.flair[class*="210"]{
+   background:0 -7942px
+}
+
+.flair[class*="211"]{
+   background:0 -7980px
+}
+
+.flair[class*="212"]{
+   background:0 -8018px
+}
+
+.flair[class*="213"]{
+   background:0 -8056px
+}
+
+.flair[class*="214"]{
+   background:0 -8094px
+}
+
+.flair[class*="215"]{
+   background:0 -8132px
+}
+
+.flair[class*="216"]{
+   background:0 -8170px
+}
+
+.flair[class*="217"]{
+   background:0 -8208px
+}
+
+.flair[class*="218"]{
+   background:0 -8246px
+}
+
+.flair[class*="219"]{
+   background:0 -8284px
+}
+
+.flair[class*="220"]{
+   background:0 -8322px
+}
+
+.flair[class*="221"]{
+   background:0 -8360px
+}
+
+.flair[class*="222"]{
+   background:0 -8398px
+}
+
+.flair[class*="223"]{
+   background:0 -8436px
+}
+
+.flair[class*="224"]{
+   background:0 -8474px
+}
+
+.flair[class*="225"]{
+   background:0 -8512px
+}
+
+.flair[class*="226"]{
+   background:0 -8550px
+}
+
+.flair[class*="227"]{
+   background:0 -8588px
+}
+
+.flair[class*="228"]{
+   background:0 -8626px
+}
+
+.flair[class*="229"]{
+   background:0 -8664px
+}
+
+.flair[class*="230"]{
+   background:0 -8702px
+}
+
+.flair[class*="231"]{
+   background:0 -8740px
+}
+
+.flair[class*="232"]{
+   background:0 -8778px
+}
+
+.flair[class*="233"]{
+   background:0 -8816px
+}
+
+.flair[class*="234"]{
+   background:0 -8854px
+}
+
+.flair[class*="235"]{
+   background:0 -8892px
+}
+
+.flair[class*="236"]{
+   background:0 -8930px
+}
+
+.flair[class*="237"]{
+   background:0 -8968px
+}
+
+.flair[class*="238"]{
+   background:0 -9006px
+}
+
+.flair[class*="239"]{
+   background:0 -9044px
+}
+
+.flair[class*="240"]{
+   background:0 -9082px
+}
+
+.flair[class*="241"]{
+   background:0 -9120px
+}
+
+.flair[class*="242"]{
+   background:0 -9158px
+}
+
+.flair[class*="243"]{
+   background:0 -9196px
+}
+
+.flair[class*="244"]{
+   background:0 -9234px
+}
+
+.flair[class*="245"]{
+   background:0 -9272px
+}
+
+.flair[class*="246"]{
+   background:0 -9310px
+}
+
+.flair[class*="247"]{
+   background:0 -9348px
+}
+
+.flair[class*="248"]{
+   background:0 -9386px
+}
+
+.flair[class*="249"]{
+   background:0 -9424px
+}
+
+.flair[class*="250"]{
+   background:0 -9462px
+}
+
+.flair[class*="251"]{
+   background:0 -9500px
+}
+
+.flair[class*="252"]{
+   background:0 -9538px
+}
+
+.flair[class*="253"]{
+   background:0 -9576px
+}
+
+.flair[class*="254"]{
+   background:0 -9614px
+}
+
+.flair[class*="255"]{
+   background:0 -9652px
+}
+
+.flair[class*="256"]{
+   background:0 -9690px
+}
+
+.flair[class*="257"]{
+   background:0 -9728px
+}
+
+.flair[class*="258"]{
+   background:0 -9766px
+}
+
+.flair[class*="259"]{
+   background:0 -9804px
+}
+
+.flair[class*="260"]{
+   background:0 -9842px
+}
+
+.flair[class*="261"]{
+   background:0 -9880px
+}
+
+.flair[class*="262"]{
+   background:0 -9918px
+}
+
+.flair[class*="263"]{
+   background:0 -9956px
+}
+
+.flair[class*="264"]{
+   background:0 -9994px
+}
+
+.flair[class*="265"]{
+   background:0 -10032px
+}
+
+.flair[class*="266"]{
+   background:0 -10070px
+}
+
+.flair[class*="267"]{
+   background:0 -10108px
+}
+
+.flair[class*="268"]{
+   background:0 -10146px
+}
+
+.flair[class*="269"]{
+   background:0 -10184px
+}
+
+.flair[class*="270"]{
+   background:0 -10222px
+}
+
+.flair[class*="271"]{
+   background:0 -10260px
+}
+
+.flair[class*="272"]{
+   background:0 -10298px
+}
+
+.flair[class*="273"]{
+   background:0 -10336px
+}
+
+.flair[class*="274"]{
+   background:0 -10374px
+}
+
+.flair[class*="275"]{
+   background:0 -10412px
+}
+
+.flair[class*="276"]{
+   background:0 -10450px
+}
+
+.flair[class*="277"]{
+   background:0 -10488px
+}
+
+.flair[class*="278"]{
+   background:0 -10526px
+}
+
+.flair[class*="279"]{
+   background:0 -10564px
+}
+
+.flair[class*="280"]{
+   background:0 -10602px
+}
+
+.flair[class*="281"]{
+   background:0 -10640px
+}
+
+.flair[class*="282"]{
+   background:0 -10678px
+}
+
+.flair[class*="283"]{
+   background:0 -10716px
+}
+
+.flair[class*="284"]{
+   background:0 -10754px
+}
+
+.flair[class*="285"]{
+   background:0 -10792px
+}
+
+.flair[class*="286"]{
+   background:0 -10830px
+}
+
+.flair[class*="287"]{
+   background:0 -10868px
+}
+
+.flair[class*="288"]{
+   background:0 -10906px
+}
+
+.flair[class*="289"]{
+   background:0 -10944px
+}
+
+.flair[class*="290"]{
+   background:0 -10982px
+}
+
+.flair[class*="291"]{
+   background:0 -11020px
+}
+
+.flair[class*="292"]{
+   background:0 -11058px
+}
+
+.flair[class*="293"]{
+   background:0 -11096px
+}
+
+.flair[class*="294"]{
+   background:0 -11134px
+}
+
+.flair[class*="295"]{
+   background:0 -11172px
+}
+
+.flair[class*="296"]{
+   background:0 -11210px
+}
+
+.flair[class*="297"]{
+   background:0 -11248px
+}
+
+.flair[class*="298"]{
+   background:0 -11286px
+}
+
+.flair[class*="299"]{
+   background:0 -11324px
+}
+
+.flair[class*="300"]{
+   background:0 -11362px
+}
+
+.flair[class*="301"]{
+   background:0 -11400px
+}
+
+.flair[class*="302"]{
+   background:0 -11438px
+}
+
+.flair[class*="303"]{
+   background:0 -11476px
+}
+
+.flair[class*="304"]{
+   background:0 -11514px
+}
+
+.flair[class*="305"]{
+   background:0 -11552px
+}
+
+.flair[class*="306"]{
+   background:0 -11590px
+}
+
+.flair[class*="307"]{
+   background:0 -11628px
+}
+
+.flair[class*="308"]{
+   background:0 -11666px
+}
+
+.flair[class*="309"]{
+   background:0 -11704px
+}
+
+.flair[class*="310"]{
+   background:0 -11742px
+}
+
+.flair[class*="311"]{
+   background:0 -11780px
+}
+
+.flair[class*="312"]{
+   background:0 -11818px
+}
+
+.flair[class*="313"]{
+   background:0 -11856px
+}
+
+.flair[class*="314"]{
+   background:0 -11894px
+}
+
+.flair[class*="315"]{
+   background:0 -11932px
+}
+
+.flair[class*="316"]{
+   background:0 -11970px
+}
+
+.flair[class*="317"]{
+   background:0 -12008px
+}
+
+.flair[class*="318"]{
+   background:0 -12046px
+}
+
+.flair[class*="319"]{
+   background:0 -12084px
+}
+
+.flair[class*="320"]{
+   background:0 -12122px
+}
+
+.flair[class*="321"]{
+   background:0 -12160px
+}
+
+.flair[class*="322"]{
+   background:0 -12198px
+}
+
+.flair[class*="323"]{
+   background:0 -12236px
+}
+
+.flair[class*="324"]{
+   background:0 -12274px
+}
+
+.flair[class*="325"]{
+   background:0 -12312px
+}
+
+.flair[class*="326"]{
+   background:0 -12350px
+}
+
+.flair[class*="327"]{
+   background:0 -12388px
+}
+
+.flair[class*="328"]{
+   background:0 -12426px
+}
+
+.flair[class*="329"]{
+   background:0 -12464px
+}
+
+.flair[class*="330"]{
+   background:0 -12502px
+}
+
+.flair[class*="331"]{
+   background:0 -12540px
+}
+
+.flair[class*="332"]{
+   background:0 -12578px
+}
+
+.flair[class*="333"]{
+   background:0 -12616px
+}
+
+.flair[class*="334"]{
+   background:0 -12654px
+}
+
+.flair[class*="335"]{
+   background:0 -12692px
+}
+
+.flair[class*="336"]{
+   background:0 -12730px
+}
+
+.flair[class*="337"]{
+   background:0 -12768px
+}
+
+.flair[class*="338"]{
+   background:0 -12806px
+}
+
+.flair[class*="339"]{
+   background:0 -12844px
+}
+
+.flair[class*="340"]{
+   background:0 -12882px
+}
+
+.flair[class*="341"]{
+   background:0 -12920px
+}
+
+.flair[class*="342"]{
+   background:0 -12958px
+}
+
+.flair[class*="343"]{
+   background:0 -12996px
+}
+
+.flair[class*="344"]{
+   background:0 -13034px
+}
+
+.flair[class*="345"]{
+   background:0 -13072px
+}
+
+.flair[class*="346"]{
+   background:0 -13110px
+}
+
+.flair[class*="347"]{
+   background:0 -13148px
+}
+
+.flair[class*="348"]{
+   background:0 -13186px
+}
+
+.flair[class*="349"]{
+   background:0 -13224px
+}
+
+.flair[class*="350"]{
+   background:0 -13262px
+}
+
+.flair[class*="351"]{
+   background:0 -13300px
+}
+
+.flair[class*="352"]{
+   background:0 -13338px
+}
+
+.flair[class*="353"]{
+   background:0 -13376px
+}
+
+.flair[class*="354"]{
+   background:0 -13414px
+}
+
+.flair[class*="355"]{
+   background:0 -13452px
+}
+
+.flair[class*="356"]{
+   background:0 -13490px
+}
+
+.flair[class*="357"]{
+   background:0 -13528px
+}
+
+.flair[class*="358"]{
+   background:0 -13566px
+}
+
+.flair[class*="359"]{
+   background:0 -13604px
+}
+
+.flair[class*="360"]{
+   background:0 -13642px
+}
+
+.flair[class*="361"]{
+   background:0 -13680px
+}
+
+.flair[class*="362"]{
+   background:0 -13718px
+}
+
+.flair[class*="363"]{
+   background:0 -13756px
+}
+
+.flair[class*="364"]{
+   background:0 -13794px
+}
+
+.flair[class*="365"]{
+   background:0 -13832px
+}
+
+.flair[class*="366"]{
+   background:0 -13870px
+}
+
+.flair[class*="367"]{
+   background:0 -13908px
+}
+
+.flair[class*="368"]{
+   background:0 -13946px
+}
+
+.flair[class*="369"]{
+   background:0 -13984px
+}
+
+.flair[class*="370"]{
+   background:0 -14022px
+}
+
+.flair[class*="371"]{
+   background:0 -14060px
+}
+
+.flair[class*="372"]{
+   background:0 -14098px
+}
+
+.flair[class*="373"]{
+   background:0 -14136px
+}
+
+.flair[class*="374"]{
+   background:0 -14174px
+}
+
+.flair[class*="375"]{
+   background:0 -14212px
+}
+
+.flair[class*="376"]{
+   background:0 -14250px
+}
+
+.flair[class*="377"]{
+   background:0 -14288px
+}
+
+.flair[class*="378"]{
+   background:0 -14326px
+}
+
+.flair[class*="379"]{
+   background:0 -14364px
+}
+
+.flair[class*="380"]{
+   background:0 -14402px
+}
+
+a[href$="/381/"],.flair[class*="381"]{
+   background:0 -14440px
+}
+
+.flair[class*="382"]{
+   background:0 -14478px
+}
+
+.flair[class*="383"]{
+   background:0 -14516px
+}
+
+.flair[class*="384"]{
+   background:0 -14554px
+}
+
+.flair[class*="385"]{
+   background:0 -14592px
+}
+
+.flair[class*="386"]{
+   background:0 -14630px
+}
+
+.flair[class*="387"]{
+   background:0 -14668px
+}
+
+.flair[class*="388"]{
+   background:0 -14706px
+}
+
+.flair[class*="389"]{
+   background:0 -14744px
+}
+
+.flair[class*="390"]{
+   background:0 -14782px
+}
+
+.flair[class*="391"]{
+   background:0 -14820px
+}
+
+.flair[class*="392"]{
+   background:0 -14858px
+}
+
+.flair[class*="393"]{
+   background:0 -14896px
+}
+
+.flair[class*="394"]{
+   background:0 -14934px
+}
+
+.flair[class*="395"]{
+   background:0 -14972px
+}
+
+.flair[class*="396"]{
+   background:0 -15010px
+}
+
+.flair[class*="397"]{
+   background:0 -15048px
+}
+
+.flair[class*="398"]{
+   background:0 -15086px
+}
+
+.flair[class*="399"]{
+   background:0 -15124px
+}
+
+.flair[class*="400"]{
+   background:0 -15162px
+}
+
+.flair[class*="401"]{
+   background:0 -15200px
+}
+
+.flair[class*="402"]{
+   background:0 -15238px
+}
+
+.flair[class*="403"]{
+   background:0 -15276px
+}
+
+.flair[class*="404"]{
+   background:0 -15314px
+}
+
+a[href$="/405/"],.flair[class*="405"]{
+   background:0 -15352px
+}
+
+.flair[class*="406"]{
+   background:0 -15390px
+}
+
+.flair[class*="407"]{
+   background:0 -15428px
+}
+
+.flair[class*="408"]{
+   background:0 -15466px
+}
+
+.flair[class*="409"]{
+   background:0 -15504px
+}
+
+.flair[class*="410"]{
+   background:0 -15542px
+}
+
+.flair[class*="411"]{
+   background:0 -15580px
+}
+
+.flair[class*="412"]{
+   background:0 -15618px
+}
+
+.flair[class*="413"]{
+   background:0 -15656px
+}
+
+.flair[class*="414"]{
+   background:0 -15694px
+}
+
+.flair[class*="415"]{
+   background:0 -15732px
+}
+
+.flair[class*="416"]{
+   background:0 -15770px
+}
+
+.flair[class*="417"]{
+   background:0 -15808px
+}
+
+.flair[class*="418"]{
+   background:0 -15846px
+}
+
+.flair[class*="419"]{
+   background:0 -15884px
+}
+
+.flair[class*="420"]{
+   background:0 -15922px
+}
+
+.flair[class*="421"]{
+   background:0 -15960px
+}
+
+.flair[class*="422"]{
+   background:0 -15998px
+}
+
+.flair[class*="423"]{
+   background:0 -16036px
+}
+
+.flair[class*="424"]{
+   background:0 -16074px
+}
+
+.flair[class*="425"]{
+   background:0 -16112px
+}
+
+.flair[class*="426"]{
+   background:0 -16150px
+}
+
+.flair[class*="427"]{
+   background:0 -16188px
+}
+
+.flair[class*="428"]{
+   background:0 -16226px
+}
+
+.flair[class*="429"]{
+   background:0 -16264px
+}
+
+.flair[class*="430"]{
+   background:0 -16302px
+}
+
+.flair[class*="431"]{
+   background:0 -16340px
+}
+
+.flair[class*="432"]{
+   background:0 -16378px
+}
+
+.flair[class*="433"]{
+   background:0 -16416px
+}
+
+.flair[class*="434"]{
+   background:0 -16454px
+}
+
+.flair[class*="435"]{
+   background:0 -16492px
+}
+
+.flair[class*="436"]{
+   background:0 -16530px
+}
+
+.flair[class*="437"]{
+   background:0 -16568px
+}
+
+.flair[class*="438"]{
+   background:0 -16606px
+}
+
+.flair[class*="439"]{
+   background:0 -16644px
+}
+
+.flair[class*="440"]{
+   background:0 -16682px
+}
+
+.flair[class*="441"]{
+   background:0 -16720px
+}
+
+.flair[class*="442"]{
+   background:0 -16758px
+}
+
+.flair[class*="443"]{
+   background:0 -16796px
+}
+
+.flair[class*="444"]{
+   background:0 -16834px
+}
+
+.flair[class*="445"]{
+   background:0 -16872px
+}
+
+.flair[class*="446"]{
+   background:0 -16910px
+}
+
+.flair[class*="447"]{
+   background:0 -16948px
+}
+
+a[href$="/448/"],.flair[class*="448"]{
+   background:0 -16986px
+}
+
+.flair[class*="449"]{
+   background:0 -17024px
+}
+
+.flair[class*="450"]{
+   background:0 -17062px
+}
+
+.flair[class*="451"]{
+   background:0 -17100px
+}
+
+.flair[class*="452"]{
+   background:0 -17138px
+}
+
+.flair[class*="453"]{
+   background:0 -17176px
+}
+
+.flair[class*="454"]{
+   background:0 -17214px
+}
+
+.flair[class*="455"]{
+   background:0 -17252px
+}
+
+.flair[class*="456"]{
+   background:0 -17290px
+}
+
+.flair[class*="457"]{
+   background:0 -17328px
+}
+
+.flair[class*="458"]{
+   background:0 -17366px
+}
+
+.flair[class*="459"]{
+   background:0 -17404px
+}
+
+.flair[class*="460"]{
+   background:0 -17442px
+}
+
+.flair[class*="461"]{
+   background:0 -17480px
+}
+
+.flair[class*="462"]{
+   background:0 -17518px
+}
+
+.flair[class*="463"]{
+   background:0 -17556px
+}
+
+.flair[class*="464"]{
+   background:0 -17594px
+}
+
+.flair[class*="465"]{
+   background:0 -17632px
+}
+
+.flair[class*="466"]{
+   background:0 -17670px
+}
+
+.flair[class*="467"]{
+   background:0 -17708px
+}
+
+.flair[class*="468"]{
+   background:0 -17746px
+}
+
+.flair[class*="469"]{
+   background:0 -17784px
+}
+
+.flair[class*="470"]{
+   background:0 -17822px
+}
+
+.flair[class*="471"]{
+   background:0 -17860px
+}
+
+.flair[class*="472"]{
+   background:0 -17898px
+}
+
+.flair[class*="473"]{
+   background:0 -17936px
+}
+
+.flair[class*="474"]{
+   background:0 -17974px
+}
+
+.flair[class*="475"]{
+   background:0 -18012px
+}
+
+.flair[class*="476"]{
+   background:0 -18050px
+}
+
+.flair[class*="477"]{
+   background:0 -18088px
+}
+
+.flair[class*="478"]{
+   background:0 -18126px
+}
+
+.flair[class*="479"]{
+   background:0 -18164px
+}
+
+.flair[class*="480"]{
+   background:0 -18202px
+}
+
+.flair[class*="481"]{
+   background:0 -18240px
+}
+
+.flair[class*="482"]{
+   background:0 -18278px
+}
+
+.flair[class*="483"]{
+   background:0 -18316px
+}
+
+.flair[class*="484"]{
+   background:0 -18354px
+}
+
+.flair[class*="485"]{
+   background:0 -18392px
+}
+
+.flair[class*="486"]{
+   background:0 -18430px
+}
+
+.flair[class*="487"]{
+   background:0 -18468px
+}
+
+.flair[class*="488"]{
+   background:0 -18506px
+}
+
+.flair[class*="489"]{
+   background:0 -18544px
+}
+
+.flair[class*="490"]{
+   background:0 -18582px
+}
+
+.flair[class*="491"]{
+   background:0 -18620px
+}
+
+.flair[class*="492"]{
+   background:0 -18658px
+}
+
+.flair[class*="493"]{
+   background:0 -18696px
+}
+
+.flair[class*="494"]{
+   background:0 -18734px
+}
+
+.flair[class*="495"]{
+   background:0 -18772px
+}
+
+.flair[class*="496"]{
+   background:0 -18810px
+}
+
+.flair[class*="497"]{
+   background:0 -18848px
+}
+
+.flair[class*="498"]{
+   background:0 -18886px
+}
+
+.flair[class*="499"]{
+   background:0 -18924px
+}
+
+.flair[class*="500"]{
+   background:0 -18962px
+}
+
+.flair[class*="501"]{
+   background:0 -19000px
+}
+
+.flair[class*="502"]{
+   background:0 -19038px
+}
+
+.flair[class*="503"]{
+   background:0 -19076px
+}
+
+.flair[class*="504"]{
+   background:0 -19114px
+}
+
+.flair[class*="505"]{
+   background:0 -19152px
+}
+
+.flair[class*="506"]{
+   background:0 -19190px
+}
+
+.flair[class*="507"]{
+   background:0 -19228px
+}
+
+.flair[class*="508"]{
+   background:0 -19266px
+}
+
+.flair[class*="509"]{
+   background:0 -19304px
+}
+
+.flair[class*="510"]{
+   background:0 -19342px
+}
+
+.flair[class*="511"]{
+   background:0 -19380px
+}
+
+.flair[class*="512"]{
+   background:0 -19418px
+}
+
+.flair[class*="513"]{
+   background:0 -19456px
+}
+
+.flair[class*="514"]{
+   background:0 -19494px
+}
+
+.flair[class*="515"]{
+   background:0 -19532px
+}
+
+.flair[class*="516"]{
+   background:0 -19570px
+}
+
+.flair[class*="517"]{
+   background:0 -19608px
+}
+
+.flair[class*="518"]{
+   background:0 -19646px
+}
+
+.flair[class*="519"]{
+   background:0 -19684px
+}
+
+.flair[class*="520"]{
+   background:0 -19722px
+}
+
+.flair[class*="521"]{
+   background:0 -19760px
+}
+
+.flair[class*="522"]{
+   background:0 -19798px
+}
+
+.flair[class*="523"]{
+   background:0 -19836px
+}
+
+.flair[class*="524"]{
+   background:0 -19874px
+}
+
+.flair[class*="525"]{
+   background:0 -19912px
+}
+
+.flair[class*="526"]{
+   background:0 -19950px
+}
+
+.flair[class*="527"]{
+   background:0 -19988px
+}
+
+.flair[class*="528"]{
+   background:0 -20026px
+}
+
+.flair[class*="529"]{
+   background:0 -20064px
+}
+
+.flair[class*="530"]{
+   background:0 -20102px
+}
+
+.flair[class*="531"]{
+   background:0 -20140px
+}
+
+.flair[class*="532"]{
+   background:0 -20178px
+}
+
+.flair[class*="533"]{
+   background:0 -20216px
+}
+
+.flair[class*="534"]{
+   background:0 -20254px
+}
+
+.flair[class*="535"]{
+   background:0 -20292px
+}
+
+.flair[class*="536"]{
+   background:0 -20330px
+}
+
+.flair[class*="537"]{
+   background:0 -20368px
+}
+
+.flair[class*="538"]{
+   background:0 -20406px
+}
+
+.flair[class*="539"]{
+   background:0 -20444px
+}
+
+.flair[class*="540"]{
+   background:0 -20482px
+}
+
+.flair[class*="541"]{
+   background:0 -20520px
+}
+
+.flair[class*="542"]{
+   background:0 -20558px
+}
+
+.flair[class*="543"]{
+   background:0 -20596px
+}
+
+.flair[class*="544"]{
+   background:0 -20634px
+}
+
+.flair[class*="545"]{
+   background:0 -20672px
+}
+
+.flair[class*="546"]{
+   background:0 -20710px
+}
+
+.flair[class*="547"]{
+   background:0 -20748px
+}
+
+.flair[class*="548"]{
+   background:0 -20786px
+}
+
+.flair[class*="549"]{
+   background:0 -20824px
+}
+
+.flair[class*="550"]{
+   background:0 -20862px
+}
+
+.flair[class*="551"]{
+   background:0 -20900px
+}
+
+.flair[class*="552"]{
+   background:0 -20938px
+}
+
+.flair[class*="553"]{
+   background:0 -20976px
+}
+
+.flair[class*="554"]{
+   background:0 -21014px
+}
+
+.flair[class*="555"]{
+   background:0 -21052px
+}
+
+.flair[class*="556"]{
+   background:0 -21090px
+}
+
+.flair[class*="557"]{
+   background:0 -21128px
+}
+
+.flair[class*="558"]{
+   background:0 -21166px
+}
+
+.flair[class*="559"]{
+   background:0 -21204px
+}
+
+.flair[class*="560"]{
+   background:0 -21242px
+}
+
+.flair[class*="561"]{
+   background:0 -21280px
+}
+
+.flair[class*="562"]{
+   background:0 -21318px
+}
+
+.flair[class*="563"]{
+   background:0 -21356px
+}
+
+.flair[class*="564"]{
+   background:0 -21394px
+}
+
+.flair[class*="565"]{
+   background:0 -21432px
+}
+
+.flair[class*="566"]{
+   background:0 -21470px
+}
+
+.flair[class*="567"]{
+   background:0 -21508px
+}
+
+.flair[class*="568"]{
+   background:0 -21546px
+}
+
+.flair[class*="569"]{
+   background:0 -21584px
+}
+
+.flair[class*="570"]{
+   background:0 -21622px
+}
+
+.flair[class*="571"]{
+   background:0 -21660px
+}
+
+.flair[class*="572"]{
+   background:0 -21698px
+}
+
+.flair[class*="573"]{
+   background:0 -21736px
+}
+
+.flair[class*="574"]{
+   background:0 -21774px
+}
+
+.flair[class*="575"]{
+   background:0 -21812px
+}
+
+.flair[class*="576"]{
+   background:0 -21850px
+}
+
+.flair[class*="577"]{
+   background:0 -21888px
+}
+
+.flair[class*="578"]{
+   background:0 -21926px
+}
+
+.flair[class*="579"]{
+   background:0 -21964px
+}
+
+.flair[class*="580"]{
+   background:0 -22002px
+}
+
+.flair[class*="581"]{
+   background:0 -22040px
+}
+
+.flair[class*="582"]{
+   background:0 -22078px
+}
+
+.flair[class*="583"]{
+   background:0 -22116px
+}
+
+.flair[class*="584"]{
+   background:0 -22154px
+}
+
+.flair[class*="585"]{
+   background:0 -22192px
+}
+
+.flair[class*="586"]{
+   background:0 -22230px
+}
+
+.flair[class*="587"]{
+   background:0 -22268px
+}
+
+.flair[class*="588"]{
+   background:0 -22306px
+}
+
+.flair[class*="589"]{
+   background:0 -22344px
+}
+
+.flair[class*="590"]{
+   background:0 -22382px
+}
+
+.flair[class*="591"]{
+   background:0 -22420px
+}
+
+.flair[class*="592"]{
+   background:0 -22458px
+}
+
+.flair[class*="593"]{
+   background:0 -22496px
+}
+
+.flair[class*="594"]{
+   background:0 -22534px
+}
+
+.flair[class*="595"]{
+   background:0 -22572px
+}
+
+.flair[class*="596"]{
+   background:0 -22610px
+}
+
+.flair[class*="597"]{
+   background:0 -22648px
+}
+
+.flair[class*="598"]{
+   background:0 -22686px
+}
+
+.flair[class*="599"]{
+   background:0 -22724px
+}
+
+.flair[class*="600"]{
+   background:0 -22762px
+}
+
+.flair[class*="601"]{
+   background:0 -22800px
+}
+
+.flair[class*="602"]{
+   background:0 -22838px
+}
+
+.flair[class*="603"]{
+   background:0 -22876px
+}
+
+.flair[class*="604"]{
+   background:0 -22914px
+}
+
+.flair[class*="605"]{
+   background:0 -22952px
+}
+
+.flair[class*="606"]{
+   background:0 -22990px
+}
+
+.flair[class*="607"]{
+   background:0 -23028px
+}
+
+.flair[class*="608"]{
+   background:0 -23066px
+}
+
+.flair[class*="609"]{
+   background:0 -23104px
+}
+
+.flair[class*="610"]{
+   background:0 -23142px
+}
+
+.flair[class*="611"]{
+   background:0 -23180px
+}
+
+.flair[class*="612"]{
+   background:0 -23218px
+}
+
+.flair[class*="613"]{
+   background:0 -23256px
+}
+
+.flair[class*="614"]{
+   background:0 -23294px
+}
+
+.flair[class*="615"]{
+   background:0 -23332px
+}
+
+.flair[class*="616"]{
+   background:0 -23370px
+}
+
+.flair[class*="617"]{
+   background:0 -23408px
+}
+
+.flair[class*="618"]{
+   background:0 -23446px
+}
+
+.flair[class*="619"]{
+   background:0 -23484px
+}
+
+.flair[class*="620"]{
+   background:0 -23522px
+}
+
+.flair[class*="621"]{
+   background:0 -23560px
+}
+
+.flair[class*="622"]{
+   background:0 -23598px
+}
+
+.flair[class*="623"]{
+   background:0 -23636px
+}
+
+.flair[class*="624"]{
+   background:0 -23674px
+}
+
+.flair[class*="625"]{
+   background:0 -23712px
+}
+
+.flair[class*="626"]{
+   background:0 -23750px
+}
+
+.flair[class*="627"]{
+   background:0 -23788px
+}
+
+.flair[class*="628"]{
+   background:0 -23826px
+}
+
+.flair[class*="629"]{
+   background:0 -23864px
+}
+
+.flair[class*="630"]{
+   background:0 -23902px
+}
+
+.flair[class*="631"]{
+   background:0 -23940px
+}
+
+.flair[class*="632"]{
+   background:0 -23978px
+}
+
+.flair[class*="633"]{
+   background:0 -24016px
+}
+
+.flair[class*="634"]{
+   background:0 -24054px
+}
+
+.flair[class*="635"]{
+   background:0 -24092px
+}
+
+.flair[class*="636"]{
+   background:0 -24130px
+}
+
+.flair[class*="637"]{
+   background:0 -24168px
+}
+
+.flair[class*="638"]{
+   background:0 -24206px
+}
+
+.flair[class*="639"]{
+   background:0 -24244px
+}
+
+.flair[class*="640"]{
+   background:0 -24282px
+}
+
+.flair[class*="641"]{
+   background:0 -24320px
+}
+
+.flair[class*="642"]{
+   background:0 -24358px
+}
+
+.flair[class*="643"]{
+   background:0 -24396px
+}
+
+.flair[class*="644"]{
+   background:0 -24434px
+}
+
+.flair[class*="645"]{
+   background:0 -24472px
+}
+
+.flair[class*="646"]{
+   background:0 -24510px
+}
+
+.flair[class*="647"]{
+   background:0 -24548px
+}
+
+.flair[class*="648"]{
+   background:0 -24586px
+}
+
+.flair[class*="649"]{
+   background:0 -24624px
+}
+
+.flair[class*="650"]{
+   background:0 -24662px
+}
+
+.flair[class*="651"]{
+   background:0 -24700px
+}
+
+.flair[class*="652"]{
+   background:0 -24738px
+}
+
+.flair[class*="653"]{
+   background:0 -24776px
+}
+
+.flair[class*="654"]{
+   background:0 -24814px
+}
+
+.flair[class*="655"]{
+   background:0 -24852px
+}
+
+.flair[class*="656"]{
+   background:0 -24890px
+}
+
+.flair[class*="657"]{
+   background:0 -24928px
+}
+
+.flair[class*="658"]{
+   background:0 -24966px
+}
+
+.flair[class*="659"]{
+   background:0 -25004px
+}
+
+.flair[class*="660"]{
+   background:0 -25042px
+}
+
+.flair[class*="661"]{
+   background:0 -25080px
+}
+
+.flair[class*="662"]{
+   background:0 -25118px
+}
+
+.flair[class*="663"]{
+   background:0 -25156px
+}
+
+.flair[class*="664"]{
+   background:0 -25194px
+}
+
+.flair[class*="665"]{
+   background:0 -25232px
+}
+
+.flair[class*="666"]{
+   background:0 -25270px
+}
+
+.flair[class*="667"]{
+   background:0 -25308px
+}
+
+.flair[class*="668"]{
+   background:0 -25346px
+}
+
+.flair[class*="669"]{
+   background:0 -25384px
+}
+
+.flair[class*="670"]{
+   background:0 -25422px
+}
+
+.flair[class*="671"]{
+   background:0 -25460px
+}
+
+.flair[class*="672"]{
+   background:0 -25498px
+}
+
+.flair[class*="673"]{
+   background:0 -25536px
+}
+
+.flair[class*="674"]{
+   background:0 -25574px
+}
+
+.flair[class*="675"]{
+   background:0 -25612px
+}
+
+.flair[class*="676"]{
+   background:0 -25650px
+}
+
+.flair[class*="677"]{
+   background:0 -25688px
+}
+
+.flair[class*="678"]{
+   background:0 -25726px
+}
+
+.flair[class*="679"]{
+   background:0 -25764px
+}
+
+.flair[class*="680"]{
+   background:0 -25802px
+}
+
+.flair[class*="681"]{
+   background:0 -25840px
+}
+
+.flair[class*="682"]{
+   background:0 -25878px
+}
+
+.flair[class*="683"]{
+   background:0 -25916px
+}
+
+.flair[class*="684"]{
+   background:0 -25954px
+}
+
+.flair[class*="685"]{
+   background:0 -25992px
+}
+
+.flair[class*="686"]{
+   background:0 -26030px
+}
+
+.flair[class*="687"]{
+   background:0 -26068px
+}
+
+.flair[class*="688"]{
+   background:0 -26106px
+}
+
+.flair[class*="689"]{
+   background:0 -26144px
+}
+
+.flair[class*="690"]{
+   background:0 -26182px
+}
+
+.flair[class*="691"]{
+   background:0 -26220px
+}
+
+.flair[class*="692"]{
+   background:0 -26258px
+}
+
+.flair[class*="693"]{
+   background:0 -26296px
+}
+
+.flair[class*="694"]{
+   background:0 -26334px
+}
+
+.flair[class*="695"]{
+   background:0 -26372px
+}
+
+.flair[class*="696"]{
+   background:0 -26410px
+}
+
+.flair[class*="697"]{
+   background:0 -26448px
+}
+
+.flair[class*="698"]{
+   background:0 -26486px
+}
+
+.flair[class*="699"]{
+   background:0 -26524px
+}
+
+.flair[class*="700"]{
+   background:0 -26562px
+}
+
+.flair[class*="701"]{
+   background:0 -26600px
+}
+
+.flair[class*="702"]{
+   background:0 -26638px
+}
+
+.flair[class*="703"]{
+   background:0 -26676px
+}
+
+.flair[class*="704"]{
+   background:0 -26714px
+}
+
+.flair[class*="705"]{
+   background:0 -26752px
+}
+
+.flair[class*="706"]{
+   background:0 -26790px
+}
+
+.flair[class*="707"]{
+   background:0 -26828px
+}
+
+.flair[class*="708"]{
+   background:0 -26866px
+}
+
+.flair[class*="709"]{
+   background:0 -26904px
+}
+
+.flair[class*="710"]{
+   background:0 -26942px
+}
+
+.flair[class*="711"]{
+   background:0 -26980px
+}
+
+.flair[class*="712"]{
+   background:0 -27018px
+}
+
+.flair[class*="713"]{
+   background:0 -27056px
+}
+
+.flair[class*="714"]{
+   background:0 -27094px
+}
+
+.flair[class*="715"]{
+   background:0 -27132px
+}
+
+.flair[class*="716"]{
+   background:0 -27170px
+}
+
+.flair[class*="717"]{
+   background:0 -27208px
+}
+
+.flair[class*="718"]{
+   background:0 -27246px
+}
+
+.flair[class*="3m"]{
+   background:0 -27284px
+}
+
+.flair[class*="6xm"]{
+   background:0 -27322px
+}
+
+.flair[class*="6ym"]{
+   background:0 -27360px
+}
+
+.flair[class*="9m"]{
+   background:0 -27398px
+}
+
+.flair[class*="65m"]{
+   background:0 -27436px
+}
+
+.flair[class*="94m"]{
+   background:0 -27474px
+}
+
+.flair[class*="15m"]{
+   background:0 -28348px
+}
+
+.flair[class*="115m"]{
+   background:0 -27512px
+}
+
+.flair[class*="127m"]{
+   background:0 -27550px
+}
+
+.flair[class*="130m"]{
+   background:0 -27588px
+}
+
+.flair[class*="142m"]{
+   background:0 -27626px
+}
+
+.flair[class*="150xm"]{
+   background:0 -27664px
+}
+
+.flair[class*="150ym"]{
+   background:0 -27702px
+}
+
+.flair[class*="181m"]{
+   background:0 -27740px
+}
+
+.flair[class*="212m"]{
+   background:0 -27778px
+}
+
+.flair[class*="214m"]{
+   background:0 -27816px
+}
+
+.flair[class*="229m"]{
+   background:0 -27854px
+}
+
+.flair[class*="248m"]{
+   background:0 -27892px
+}
+
+.flair[class*="257m"]{
+   background:0 -27930px
+}
+
+.flair[class*="282m"]{
+   background:0 -27968px
+}
+
+.flair[class*="303m"]{
+   background:0 -28006px
+}
+
+.flair[class*="306m"]{
+   background:0 -28044px
+}
+
+.flair[class*="308m"]{
+   background:0 -28082px
+}
+
+.flair[class*="310m"]{
+   background:0 -28120px
+}
+
+.flair[class*="354m"]{
+   background:0 -28158px
+}
+
+.flair[class*="359m"]{
+   background:0 -28196px
+}
+
+.flair[class*="445m"]{
+   background:0 -28234px
+}
+
+.flair[class*="448m"]{
+   background:0 -28272px
+}
+
+.flair[class*="460m"]{
+   background:0 -28310px
+}
+
+.flair[class*="18m"]{
+   background:0 -28386px
+}
+
+.flair[class*="80m"]{
+   background:0 -28424px
+}
+
+.flair[class*="208m"]{
+   background:0 -28462px
+}
+
+.flair[class*="254m"]{
+   background:0 -28500px
+}
+
+.flair[class*="260m"]{
+   background:0 -28538px
+}
+
+.flair[class*="302m"]{
+   background:0 -28576px
+}
+
+.flair[class*="319m"]{
+   background:0 -28614px
+}
+
+.flair[class*="323m"]{
+   background:0 -28652px
+}
+
+.flair[class*="334m"]{
+   background:0 -28690px
+}
+
+.flair[class*="362m"]{
+   background:0 -28728px
+}
+
+.flair[class*="373m"]{
+   background:0 -28766px
+}
+
+.flair[class*="376m"]{
+   background:0 -28804px
+}
+
+.flair[class*="380m"]{
+   background:0 -28842px
+}
+
+.flair[class*="381m"]{
+   background:0 -28880px
+}
+
+.flair[class*="382m"]{
+   background:0 -28918px
+}
+
+.flair[class*="383m"]{
+   background:0 -28956px
+}
+
+.flair[class*="384m"]{
+   background:0 -28994px
+}
+
+.flair[class*="428m"]{
+   background:0 -29032px
+}
+
+.flair[class*="475m"]{
+   background:0 -29070px
+}
+
+.flair[class*="531m"]{
+   background:0 -29108px
+}
+
+.flair[class*="q"]{
+   background:0 -29146px
+}
+
+.flair[class*="719"]{
+   background:0 -29184px
+}
+
+.flair[class*="q"]{
+   background:0 -29222px
+}
+
+.flair[class*="645t"]{
+   background:0 -29260px
+}
+
+.flair[class*="647r"]{
+   background:0 -29298px
+}
+
+.flair[class*="tournament"]{
+   background:0 -29336px
+}
+
+.flair[class*="missingno"]{
+   background:0 -29374px
+}
+
+.flair[class*="crobats"]{
+   background:0 -29412px
+}
+
+.flair[class*="quantum"]{
+   background:0 -29450px
+}
+
+.flair[class*="479i"]{
+   background:0 -29488px
+}
+
+.flair[class*="479f"]{
+   background:0 -29526px
+}
+
+.flair[class*="479g"]{
+   background:0 -29564px
+}
+
+.flair[class*="479e"]{
+   background:0 -29602px
+}
+
+.flair[class*="479w"]{
+   background:0 -29640px
+}
+
+.flair[class*="487o"]{
+   background:0 -29678px
+}
+
+.flair[class*="492s"]{
+   background:0 -29716px
+}
+
+.flair[class*="641t"]{
+   background:0 -29754px
+}
+
+.flair[class*="642t"]{
+   background:0 -29792px
+}
+
+.flair[class*="386a"]{
+   background:0 -29830px
+}
+
+.flair[class*="386d"]{
+   background:0 -29868px
+}
+
+.flair[class*="386s"]{
+   background:0 -29906px
+}
+
+.flair[class*="646b"]{
+   background:0 -29944px
+}
+
+.flair[class*="646w"]{
+   background:0 -29982px
+}
+
+.flair[class*="666a"]{
+   background:0 -30020px
+}
+
+.flair[class*="25b"]{
+   background:0 -30058px
+}
+
+.flair[class*="25l"]{
+   background:0 -30096px
+}
+
+.flair[class*="25d"]{
+   background:0 -30134px
+}
+
+.flair[class*="25p"]{
+   background:0 -30172px
+}
+
+.flair[class*="25r"]{
+   background:0 -30210px
+}
+
+.flair[class*="666p"]{
+   background:0 -30248px
+}
+
+.flair[class*="648p"]{
+   background:0 -30286px
+}
+
+.flair[class*="392i"]{
+   background:0 -30324px
+}
+
+.flair[class*="392f"]{
+   background:0 -30362px
+}
+
+.flair[class*="392w"]{
+   background:0 -30400px
+}
+
+.flair[class*="668f"]{
+   background:0 -30438px
+}
+
+.flair[class*="681a"]{
+   background:0 -30476px
+}
+
+.flair[class*="422e"]{
+   background:0 -30514px
+}
+
+.flair[class*="423e"]{
+   background:0 -30552px
+}
+
+.flair[class*="678f"]{
+   background:0 -30590px
+}
+
+.flair[class*="592f"]{
+   background:0 -30628px
+}
+
+.flair[class*="593f"]{
+   background:0 -30666px
+}
+
+.flair[class*="720"]{
+   background:0 -30704px
+}
+
+.flair[class*="721"]{
+   background:0 -30742px
+}
+
+.flair[class*="130s"]{
+   background:0 -30780px
+}
+
+.flair[class*="483p"]{
+   background:0 -30818px
+}
+
+/* Sheets */
+a[href^="##p/"],.flair[class*="plainflair"]{
+   background-image:url(%%orasflairplain%%)!important
+}
+
+a[href^="##m/"],.flair[class*="mysticflair"]{
+   background-image:url(%%orasflairmystic%%)!important
+}
+
+a[href^="##v/"],.flair[class*="valorflair"]{
+   background-image:url(%%orasflairvalor%%)!important
+}
+
+a[href^="##i/"],.flair[class*="instinctflair"]{
+   background-image:url(%%orasflairinstinct%%)!important
+}
+
+/* Special Special Flairs! */
+@keyframes juxlos {
+    from {
+        background-position: 0 0 
+   }
+
+    to {
+        background-position: 0 -2204px 
+   }
+
+}
+
+.flair-juxlos {
+    height: 38px;
+    min-width: 48px;
+    background: url(%%juxlos%%);
+    background-repeat: no-repeat !important;
+    animation: juxlos 2s steps(58) infinite;
+    text-indent: 48px;
+}
+
+@keyframes mrusamakhan {
+    from {
+        background-position: 0 0 
+   }
+
+    to {
+        background-position: 0 -1824px 
+   }
+
+}
+
+.flair-khan {
+    height: 38px;
+    min-width: 48px;
+    background: url(%%mrusamakhan%%);
+    background-repeat: no-repeat !important;
+    animation: mrusamakhan 1.8s steps(48) infinite;
+    text-indent: 48px;
+}
+
+@keyframes zslayer {
+    from {
+        background-position: 0 0 
+   }
+
+    to {
+        background-position: 0 -16812px 
+   }
+
+}
+
+.flair-zslayer {
+    height: 36px;
+    min-width: 52px;
+    background: url(%%zslayer%%);
+    background-repeat: no-repeat !important;
+    animation: zslayer 14.01s steps(467) infinite;
+    text-indent: 60px;
+}
+
+@keyframes rjo {
+    from {
+        background-position: 0 0 
+   }
+
+    to {
+        background-position: 0 -1064px 
+   }
+
+}
+
+.flair-rjo {
+    height: 38px;
+    min-width: 48px;
+    background: url(%%rjo%%);
+    background-repeat: no-repeat !important;
+    animation: rjo 1.2s steps(28) infinite;
+    text-indent: 48px;
+}
+
+@keyframes automod {
+    from {
+        background-position: 0 0 
+   }
+
+    to {
+        background-position: 0 -1786px 
+   }
+
+}
+
+.flair-automod {
+    height: 38px;
+    min-width: 48px;
+    background: url(%%porygon%%);
+    background-repeat: no-repeat !important;
+    animation: automod 1.8s steps(47) infinite;
+    text-indent: 48px;
+}
+
+.flair-pogomods {
+    height: 38px;
+    min-width: 48px;
+    background: url(%%pogomods%%);
+    background-repeat: no-repeat !important;
+    text-indent: 53px;
+}
+
+.flair-niantic{
+    background: url(%%nianticstaff%%);
+    background-repeat: no-repeat !important;
+    content: '';
+    display: inline-block;
+    height: 30px;
+    vertical-align: center;
+    min-width: 26px;
+    line-height: 30px;
+    text-indent: 26px;
+}
+

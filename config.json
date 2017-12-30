@@ -1,0 +1,15 @@
+{
+    "subreddit": "/r/PokemonGO",
+    "authors": "Designed by /u/HectorLizard, Developed by /u/Haruka-Sama\n\tContinues off work by /u/MrUsamaKhan on /r/StarWarsLeaks",
+    "build_no": 0,
+    "directories": {
+        "dist": "dist",
+        "src": "css"
+    },
+    "files": [
+        "hector",
+        "linkflair",
+        "userflair",
+        "sidebar"
+    ]
+}

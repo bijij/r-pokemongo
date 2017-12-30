@@ -1,0 +1,156 @@
+/* Link Flair Selctor */
+a[href*="#lnk_flr"], 
+.linkflairlabel {
+    display: inline-block;
+    border-radius: 6.5px;
+    text-align: center;
+    padding: 2px 8px 2px 8px;
+    color: var(--button-text)!important;
+
+    font-size: 9px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+    border: none;
+    margin: 0;
+
+}
+
+a[href*="#lnk_flr"]:hover {
+    box-shadow: inset 0 0 0 20px rgba(255, 255, 255, 0.5);
+    text-decoration: none!important;
+}
+a[href*="#lnk_flr"]:active {
+    position: relative;
+    top: 1px;
+    box-shadow: inset 0 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Flair colours */
+a[href$="flr_art"],
+.linkflair-art .linkflairlabel {
+    background-color: var(--flair-art);
+}
+
+a[href$="flr_que"],
+.linkflair-question .linkflairlabel {
+    background-color: var(--flair-question);
+}
+
+a[href$="flr_hum"],
+.linkflair-humor .linkflairlabel {
+    background-color: var(--flair-humor);
+}
+
+a[href$="flr_com"],
+.linkflair-complaint .linkflairlabel {
+    background-color: var(--flair-complaint);
+}
+
+a[href$="flr_ide"],
+.linkflair-idea .linkflairlabel {
+    background-color: var(--flair-idea);
+}
+
+a[href$="flr_bug"],
+.linkflair-bugs .linkflairlabel {
+    background-color: var(--flair-bugs);
+}
+
+a[href$="flr_pho"],
+.linkflair-photo .linkflairlabel {
+    background-color: var(--flair-photo);
+}
+
+a[href$="flr_sto"],
+.linkflair-story .linkflairlabel {
+    background-color: var(--flair-story);
+}
+
+a[href$="flr_new"],
+.linkflair-news .linkflairlabel {
+    background-color: var(--flair-news);
+}
+
+a[href$="flr_ars"],
+.linkflair-arshot .linkflairlabel {
+    background-color: var(--flair-ar-shot);
+}
+
+a[href$="flr_vid"],
+.linkflair-video .linkflairlabel {
+    background-color: var(--flair-video);
+}
+
+a[href$="flr_dis"],
+.linkflair-discussion .linkflairlabel {
+    background-color: var(--flair-discussion);
+}
+
+a[href$="flr_oth"],
+.linkflair-other .linkflairlabel {
+    background-color: var(--flair-other);
+}
+
+a[href$="flr_met"],
+.linkflair-meta .linkflairlabel {
+    background-color: var(--flair-meta);
+}
+
+
+/* Fliar Filters */
+html:lang(ao) .link:not(.linkflair-art),
+html:lang(na) .link.linkflair-art,
+
+html:lang(qu) .link:not(.linkflair-question),
+html:lang(nq) .link.linkflair-question,
+
+html:lang(hu) .link:not(.linkflair-humor),
+html:lang(nh) .link.linkflair-humor,
+
+html:lang(co) .link:not(.linkflair-complaint),
+html:lang(nc) .link.linkflair-complaint,
+
+html:lang(id) .link:not(.linkflair-idea),
+html:lang(ni) .link.linkflair-idea,
+
+html:lang(bu) .link:not(.linkflair-bugs),
+html:lang(nb) .link.linkflair-bugs,
+
+html:lang(ph) .link:not(.linkflair-photo),
+html:lang(np) .link.linkflair-photo,
+
+html:lang(st) .link:not(.linkflair-story),
+html:lang(ns) .link.linkflair-story,
+
+html:lang(nw) .link:not(.linkflair-news),
+html:lang(nn) .link.linkflair-news,
+
+html:lang(ar) .link:not(.linkflair-arshot),
+html:lang(nr) .link.linkflair-arshot,
+
+html:lang(vi) .link:not(.linkflair-video),
+html:lang(nv) .link.linkflair-video,
+
+html:lang(di) .link:not(.linkflair-discussion),
+html:lang(nd) .link.linkflair-discussion,
+
+html:lang(ot) .link:not(.linkflair-other),
+html:lang(no) .link.linkflair-other,
+
+html:lang(me) .link:not(.linkflair-meta),
+html:lang(nm) .link.linkflair-meta {
+    display:none !important
+}
+
+.flairselector .linkflairlabel {
+    float: none!important;
+}
+
+a[href$="#lnk_flr"] {
+    color: #000000!important;
+    float: right;
+    margin-left: 8px;
+    text-decoration: unset!important;
+}
